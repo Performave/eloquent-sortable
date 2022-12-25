@@ -3,10 +3,10 @@
 
 # Sortable behaviour for Eloquent models
 
-[![Latest Version](https://img.shields.io/github/release/spatie/eloquent-sortable.svg?style=flat-square)](https://github.com/spatie/eloquent-sortable/releases)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/spatie/eloquent-sortable/run-tests?label=tests)
+[![Latest Version](https://img.shields.io/github/release/performave/eloquent-sortable.svg?style=flat-square)](https://github.com/performave/eloquent-sortable/releases)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/performave/eloquent-sortable/run-tests?label=tests)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/eloquent-sortable.svg?style=flat-square)](https://packagist.org/packages/spatie/eloquent-sortable)
+[![Total Downloads](https://img.shields.io/packagist/dt/performave/eloquent-sortable.svg?style=flat-square)](https://packagist.org/packages/performave/eloquent-sortable)
 
 This package provides a trait that adds sortable behaviour to an Eloquent model.
 
@@ -33,7 +33,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 This package can be installed through Composer.
 
 ```
-composer require spatie/eloquent-sortable
+composer require performave/eloquent-sortable
 ```
 
 In Laravel 5.5 and above the service provider will automatically get registered. In older versions of the framework just add the service provider in `config/app.php` file:
@@ -222,7 +222,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/performave/.github/blob/main/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 

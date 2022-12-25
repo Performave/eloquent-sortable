@@ -35,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\EloquentSortable\\": "src/"
+            "Performave\\EloquentSortable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\EloquentSortable\\Test\\": "tests"
+            "Performave\\EloquentSortable\\Test\\": "tests"
         }
     },
     "minimum-stability": "dev",
@@ -52,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\EloquentSortable\\EloquentSortableServiceProvider"
+                "Performave\\EloquentSortable\\EloquentSortableServiceProvider"
             ]
         }
     }
