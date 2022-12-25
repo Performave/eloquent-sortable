@@ -2,6 +2,10 @@
 
 All notable changes to `eloquent-sortable` will be documented in this file
 
+## v1.0.0 - 2022-12-25
+
+- Add moveToPosition method
+
 ## 4.0.1 - 2022-01-21
 
 - support Laravel 9
