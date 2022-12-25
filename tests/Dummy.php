@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\EloquentSortable\Test;
+namespace Performave\EloquentSortable\Test;
 
 use Illuminate\Database\Eloquent\Model;
-use Spatie\EloquentSortable\Sortable;
-use Spatie\EloquentSortable\SortableTrait;
+use Performave\EloquentSortable\Sortable;
+use Performave\EloquentSortable\SortableTrait;
 
 class Dummy extends Model implements Sortable
 {

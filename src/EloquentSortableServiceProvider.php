@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\EloquentSortable;
+namespace Performave\EloquentSortable;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

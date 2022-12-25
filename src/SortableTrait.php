@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\EloquentSortable;
+namespace Performave\EloquentSortable;
 
 use ArrayAccess;
 use Illuminate\Database\Eloquent\Builder;
@@ -129,6 +129,23 @@ trait SortableTrait
     public static function swapOrder(Sortable $model, Sortable $otherModel): void
     {
         $model->swapOrderWithModel($otherModel);
+    }
+
+    public function moveToPosition($position)
+    {
+        $position = max(1, min($position, $this->getHighestOrderNumber()));
+
+        $orderColumnName = $this->determineOrderColumnName();
+
+        $this->buildSortQuery()
+            ->where($this->getKeyName(), '!=', $this->id)
+            ->where($orderColumnName, '>=', $position)
+            ->increment($orderColumnName);
+
+        $this->$orderColumnName = $position;
+        $this->save();
+
+        return $this;
     }
 
     public function moveToStart(): static

@@ -41,7 +41,7 @@ In Laravel 5.5 and above the service provider will automatically get registered.
 ```php
 'providers' => [
     ...
-    Spatie\EloquentSortable\EloquentSortableServiceProvider::class,
+    Performave\EloquentSortable\EloquentSortableServiceProvider::class,
 ];
 ```
 
@@ -71,15 +71,15 @@ return [
 ## Usage
 
 To add sortable behaviour to your model you must:
-1. Implement the `Spatie\EloquentSortable\Sortable` interface.
-2. Use the trait `Spatie\EloquentSortable\SortableTrait`.
+1. Implement the `Performave\EloquentSortable\Sortable` interface.
+2. Use the trait `Performave\EloquentSortable\SortableTrait`.
 3. Optionally specify which column will be used as the order column. The default is `order_column`.
 
 ### Example
 
 ```php
-use Spatie\EloquentSortable\Sortable;
-use Spatie\EloquentSortable\SortableTrait;
+use Performave\EloquentSortable\Sortable;
+use Performave\EloquentSortable\SortableTrait;
 
 class MyModel extends Model implements Sortable
 {
